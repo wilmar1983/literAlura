@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-@Repository // Anotación opcional, pero buena práctica para indicar que es un componente de Spring
+@Repository
 public interface AutorRepository extends JpaRepository<Autor, Long> {
     // JpaRepository<TipoDeEntidad, TipoDeIdDeLaEntidad>
 

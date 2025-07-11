@@ -21,6 +21,5 @@ public interface LibroRepository extends JpaRepository<Libro, Long> {
     // Esto es posible porque el campo 'autor' es una relación en la entidad Libro
     List<Libro> findByAutorNombreContainingIgnoreCase(String nombreAutor);
 
-    // Puedes añadir más métodos según las necesidades de tus filtros, por ejemplo:
-    // List<Libro> findTop10ByOrderByNumeroDescargasDesc();
+
 }

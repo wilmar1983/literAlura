@@ -9,7 +9,7 @@ import com.Challenge.literAlura.repository.AutorRepository;
 import com.Challenge.literAlura.repository.LibroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.client.RestTemplate; // O WebClient, dependiendo de tu preferencia
+import org.springframework.web.client.RestTemplate;
 import com.fasterxml.jackson.databind.JsonNode; // Para parsear JSON
 import java.util.Scanner;
 import java.util.List;
